@@ -27,3 +27,8 @@ Esto se debe a que se ha definido que el resultado se imprimira en la misma pagi
 Otro detalle es que cuando el usuario define una unidad o cualquier numero que tenga estas dentro de su escritura y selecciona Letras, el numero no aparecera en su forma de escritura si no como formato de numero, se ha intentado encontrar la causa de este problema, pero no se ha tenido exito, po lo que se ha dejado asi. 
 
 Ejercicio N°3:
+Este ejercicio es basicamente un formulario de datos para una familia. Consta de una serie de cajas de textos en las cuales se pide ingresar los siguientes datos: Nombre, Direccion, Profesion, Lugar de trabajo; tanto para el como para la madre. Adicionalmente se solicita en otra caja de texto, ingresar el numero de hijos que la familia tiene. 
+Finalmente se dispone de un boton que redirige a otra pagina donde muestran los datos de los padres que se ingresaron anteriormente y a demás se genera otra serie de cajas de texto y combobox en los que se pide especificar el nombre y genero de cada hijo que la familia tiene; la cantidad de cajas de texto y combobox se generan segun el numero
+de hijos que el usuario ingresó anteriormente; Despues de esto, se tiene un boton que guarda y muestra todos los datos ingresados, sin embargo, esta ultima funcion no se pudo completar 
+debido a que no se encontro manera de poder capturar los datos de los hijos, pues las cajas de texto y combobox se generan en la ejecucion del codigo mediante un ciclo Do While, entonces al momento de 
+recibir el value en la pagina a la que se envia no se tiene el nombre especifico de cada caja de texto y combobox.
