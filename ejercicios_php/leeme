@@ -1,2 +1,29 @@
 En este archivo se describira el funcionamiento de los dibersos ejercicios.
 
+Ejercicio N°1:
+En este se muestra un diseño bastante simple, constando unicamente de una caja de texto donde se pide que el usuario coloque la tarea que va a ser agendada.
+Luego 2 dropdown list donde se pide que el usuario seleccione la hora de la tarea, en el caso del primero, asi como su horario, en el caso del segundo.
+Por ultimo se muestra el boton enviar, el cual sirve para enviar a imprimir la tarea hacia una pagina diferente, esta pagina diferente se creo con el unico fin de mostrar los datos que resien se han ingresado.
+Y bueno con todo eso descrito la tarea principal de este programa es el de agendar una tarea asignandole una hora y horario en especifico.
+
+Ejercicio N°2:
+Este ejercicio va enfocado a ser un convertidor de numeros a diferentes escrituras, siendo estas la romana y su forma normal en letras.
+Para ello se usan 3 componentes basicos, los cuales son:
+En primer lugar una caja de texto, que es en especifico para la insercion de numeros, donde se le pide al usuario que ingrese el numero que sera convertido a escritura.
+Luego se encuentran los radiobuttons, los cuales cuento como uno solo pues su funcion es simplemente saber en que forma quiere escrito el numero nuestro usuario; pero en este control tenemos 2 opciones las cuales ya se dieron a conocer pero se deben especificar siempre como lo son:
+       Romanos: Si el usuario desea que el numero sea escrito con el sistema romano.
+       Letras:Si el usuario desea que el numero sea escrito en su forma desimal, pero con letras.
+Y por ultimo el boton comprobar, el cual hace el proceso de recargar la pagina, pero esta vez ya teniendo los valores asignados por los controles anteriores y mediante la comparacion y la estrcutura if se sabra si el usuario decidio escritura romana o decimal.
+Mediante arrays se definen la forma de escritura romana para las unidades, decenas y centenas y haciendo uso de formulas se hace imprimir el funcion del valor definido por el usuario.
+Teniendo esto solo faltaria la impresion de los datos los cuales se muestran luego de todos estos controles anteriormente listados.
+
+Como datos agregados:
+Cuando se inicia la pagina, se mostraran dos linea de errores en la parte inferior los cuales son los siguientes: 
+
+Notice: Undefined index: seleccion in C:\xampp\htdocs\ejercicios_php\conversor.php on line 71
+Notice: Undefined index: numero in C:\xampp\htdocs\ejercicios_php\conversor.php on line 72
+
+Esto se debe a que se ha definido que el resultado se imprimira en la misma pagina, y estas 2 variables son las que almacenan los datos dados en los controles dentro de la pagina y debido a que para este momento las variables no tienen ningun valor asignado.
+Otro detalle es que cuando el usuario define una unidad o cualquier numero que tenga estas dentro de su escritura y selecciona Letras, el numero no aparecera en su forma de escritura si no como formato de numero, se ha intentado encontrar la causa de este problema, pero no se ha tenido exito, po lo que se ha dejado asi. 
+
+Ejercicio N°3:
